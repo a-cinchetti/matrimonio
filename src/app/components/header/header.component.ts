@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
 
   scroll(id: string) {
-    console.log(`scrolling to ${id}`);
     let el = document.getElementById(id);
     el?.scrollIntoView({ behavior: 'smooth', block: "nearest" });
   }
