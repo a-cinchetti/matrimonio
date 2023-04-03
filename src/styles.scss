@@ -4,9 +4,20 @@ html, body {
 }
 
 body {
-  margin: 0;
+  margin: 30px 0;
 }
 
 * {
-  font-family: sans-serif !important;
+  font-family: traveling, sans-serif !important;
+}
+
+span {
+  font-family: brandon, sans-serif !important;
+}
+
+hr {
+  border-top-width: 2px;
+  margin: 40px 0 20px;
+  width: 100%;
+  border-top-color: #d8bb98;
 }

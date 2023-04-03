@@ -1,0 +1,29 @@
+<div class="program--content">
+  <h2 class="__title">
+    Programma
+  </h2>
+  <div class="__elements">
+    <div class="icon-svg" aria-label="My icon" [inlineSVG]="'/assets/images/arrow-down.svg'"></div>
+    <div class="__cerimonia">
+      <img src="assets/images/villa.jpg" alt="villa" class="__image --villa">
+      <div class="__description">
+        <span>La celebrazione si terrà</span>
+        <h3>giovedì 31 agosto 2023 alle ore 16.30</h3>
+        <span>presso</span>
+        <h3>Villa Brunati, viale F.Agello 5, 25015 Rivoltella (BS)</h3>
+      </div>
+    </div>
+    <div class="__cerimonia">
+      <div class="__description" *ngIf="!mobile">
+        <span>I festeggiamenti proseguiranno da</span>
+        <h3>Conti Thun, via Masserino 2, 25080, Puegnago sul Garda (BS)</h3>
+      </div>
+      <img src="assets/images/thun.jpg" alt="conti-thun" class="__image --dinner">
+      <div class="__description" *ngIf="mobile">
+        <span>I festeggiamenti proseguiranno da</span>
+        <h3>Conti Thun, via Masserino 2, 25080, Puegnago sul Garda (BS)</h3>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>
