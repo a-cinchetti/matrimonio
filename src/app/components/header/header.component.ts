@@ -9,6 +9,6 @@ export class HeaderComponent {
 
   scroll(id: string) {
     let el = document.getElementById(id);
-    el?.scrollIntoView({ behavior: 'smooth', block: "nearest" });
+    el?.scrollIntoView({ behavior: 'smooth', block: "start" });
   }
 }
